@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from 'react'
+import React, { useEffect } from 'react'
 import {AiOutlineDelete} from 'react-icons/ai'
 import {v4 as uuidv4} from "uuid"
 
