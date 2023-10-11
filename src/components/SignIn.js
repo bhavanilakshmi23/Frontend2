@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import axios from 'axios'
 import {toast} from 'react-toastify'
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom';
 
 function SignIn() {
@@ -29,11 +29,17 @@ function SignIn() {
         }
     }
 
- return<div className='container'>
+  return<div className='container'>
     <div className='row'>
- <div className='col-lg-7'>
-    </div>
-<div className='col-lg-5'>
+
+  
+      <div className='col-lg-7'>
+        
+       
+        </div>
+   
+
+      <div className='col-lg-5'>
   <div className='signin'>
   <h1 className='title'>Sign In</h1>
  <div className='signin1'>
