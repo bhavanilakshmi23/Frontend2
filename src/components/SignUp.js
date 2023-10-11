@@ -30,7 +30,10 @@ function SignUp() {
         }
     }
 
-  return <div className='signin2'>
+  return<div className='container'>
+    <div className='row'>
+       <div className='col-lg-5'>
+  <div className='signin2'>
     <h1 className='title'>Sign Up</h1>
     <div className='signin1'>
     <Form onSubmit={handleSignup}>
@@ -55,7 +58,12 @@ function SignUp() {
       </Button>
     </Form>
     </div>
-  </div>
+        </div>
+             </div>
+         <div className='col-lg-7'>
+       </div>
+         </div>
+    </div>
 }
 
 export default SignUp
