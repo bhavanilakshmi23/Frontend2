@@ -1,6 +1,7 @@
 
 import React, {useState} from 'react'
 import Table from './Table'
+import { Link } from 'react-router-dom'
 
 const Dashboard = () => {
 const[showInvoice,setShowInvoice]=useState(false)
@@ -192,6 +193,10 @@ const handleprint=()=>{
   </>)
 }
 </div>
+
+    <div className='link'>
+     <button className='btn btn-info'><Link to='/sign-in'>logout</Link></button> 
+              </div>
  </>
       
   )
