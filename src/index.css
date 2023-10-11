@@ -1,10 +1,9 @@
-
  body{
-  background:linear-gradient(blueviolet,pink) ;
+  background:linear-gradient( to bottom right, #171973,#CFBCE7,#E160F3,#8E7FFE);
   background-repeat: no-repeat;
   background-size: cover;
- }
-  .container{
+}
+  .containers{
     background:#F5F5F5;
     color:#100C08;
     margin: 50px;
@@ -93,20 +92,25 @@
     margin-top: 10px;
     text-align: justify;
   }
+  .link{
+    text-align: right;
+    font-weight: 700;
+    text-decoration: none;
+  }
   
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    resize: vertical;
+ 
   }
-  .signin{
+  /* .signin { 
     width:500px;
     height:440px;
    background:white;
-   margin-left: 400px;
-   margin-top: 140px;
+    margin-left: 400px; */
+   /* margin-top: 140px;
    margin-bottom: 40px;
    padding-left: 100px;
    border: 1px solid white;
@@ -116,9 +120,9 @@
 
   .signin input{
     width:300px ;
-  }
-  
-  .signin2{
+  }  */
+   
+  /* .signin2{
     width:550px;
     height:630px;
    background:white;
@@ -133,7 +137,7 @@
 
   .signin2 input{
     width:300px ;
-  }
+  } */
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
@@ -176,7 +180,7 @@ text-decoration: underline;
  }
   .form{
     border-radius: 5px;
-  background-color:whitesmoke;
+  background:whitesmoke;
   padding: 30px;
   width:1000px;
   margin-top: 80px;
@@ -184,7 +188,51 @@ text-decoration: underline;
   height:970px;
   padding-left: 40px;
   padding-top: 80px;
+  opacity: 0.9;
   
  }
+
+ 
+.container{
+  background:whitesmoke;
+  width: auto;
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-radius: 6px;
+ 
+}
+
+.col-lg-7{
+  
+      background-image: url(./images/signin.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width:auto;
+      height: auto;
+     
+
+   }
+
+.signin{
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+}
+.signin2 {
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+
+}
+.signin2 input{
+width:100%;
+padding:10px;
+}
+
 
 
